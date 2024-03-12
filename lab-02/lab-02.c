@@ -40,5 +40,5 @@ int main() {
         printf("Saindo do processo pai.\n");
     }
 
-    return 0;
+return 0;
 }
