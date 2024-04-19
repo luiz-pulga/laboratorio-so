@@ -72,7 +72,6 @@ int main() {
             return 0;
         }
 
-        // A saída é o tempo da última pessoa adicionado de 10 segundos para finalizar a última subida
         fprintf(saida, "%d\n", WEXITSTATUS(status));
         fclose(saida);
 
