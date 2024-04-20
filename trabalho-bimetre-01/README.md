@@ -5,6 +5,7 @@ Print Processos
 ![image](https://github.com/luiz-pulga/laboratorio-so/assets/162224053/82abe861-9593-4cb2-be6b-b15f8f043cef)
 
 
+
   Resposta das Perguntas:
 
 1. Qual a estratégia que você utilizou para evitar que duas pessoas acessem a escada rolante ao mesmo tempo em cada abordagem?
