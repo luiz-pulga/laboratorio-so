@@ -10,8 +10,22 @@ Print Processos
 
 1. Qual a estratégia que você utilizou para evitar que duas pessoas acessem a escada rolante ao mesmo tempo em cada abordagem?
 
+R:
+
+Threads:
+
+Processos:
+
 2. Como garantir que somente uma das direções está ativa de cada vez em cada uma das abordagens?
+
+R:
+
+Threads:
+
+Processos:
 
 3. Discorra sobre as diferenças entre as implementações utilizando threads e processos e diga qual foi mais eficiente na solução do problema, justificando sua resposta.
 
-       R: Devido ao compartilhamento de memoria e a comunicação facilitada, as threads apresentam um melhor desempenho. Como elas compartilham seu estado atual, há mais facilidade em manipular as variáveis. No caso dos processos, é necessária a utilização de mecanismos interprocessos, o que acaba requisitando maior uso de recursos e tempo
+    R:
+
+   Devido ao compartilhamento de memoria e a comunicação facilitada, as threads apresentam um melhor desempenho. Como elas compartilham seu estado atual, há mais facilidade em manipular as variáveis. No caso dos processos, é necessária a utilização de mecanismos interprocessos, o que acaba requisitando maior uso de recursos e tempo
