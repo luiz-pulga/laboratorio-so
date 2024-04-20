@@ -10,15 +10,15 @@ Print Processos
 
 1. Qual a estratégia que você utilizou para evitar que duas pessoas acessem a escada rolante ao mesmo tempo em cada abordagem?
 
-R:
+    R:
 
-Threads:
+Threads: A thread unica processa apenas uma pessoa por vez e utiliza uma márgem de segurança de 10 segundos. Dessa maneira, torna-se possível o controle de fluxo no código. Além disso, ele usa a variável tempo_ultima_pessoa para controlar quem e quando acessou recentemente.
 
 Processos:
 
 2. Como garantir que somente uma das direções está ativa de cada vez em cada uma das abordagens?
 
-R:
+    R:
 
 Threads:
 
