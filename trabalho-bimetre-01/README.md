@@ -28,4 +28,4 @@ Processos: Asim como em Threads, a variável sentido_atual determina a direção
 
     R:
 
-   Devido ao compartilhamento de memoria e a comunicação facilitada, as threads apresentam um melhor desempenho. Como elas compartilham seu estado atual, há mais facilidade em manipular as variáveis. No caso dos processos, é necessária a utilização de mecanismos interprocessos, o que acaba requisitando maior uso de recursos e tempo
+Devido ao compartilhamento de memoria e a comunicação facilitada, as threads apresentam um melhor desempenho. Como elas compartilham seu estado atual, há mais facilidade em manipular as variáveis. No caso dos processos, é necessária a utilização de mecanismos interprocessos, o que acaba requisitando maior uso de recursos e tempo
