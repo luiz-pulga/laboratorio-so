@@ -14,15 +14,15 @@ Print Processos
 
 Threads: A thread unica processa apenas uma pessoa por vez e utiliza uma márgem de segurança de 10 segundos. Dessa maneira, torna-se possível o controle de fluxo no código. Além disso, ele usa a variável tempo_ultima_pessoa para controlar quem e quando acessou recentemente.
 
-Processos:
+Processos: Esse método também usa margem de 10 segundos de segurança, porém acaba se escorando mais no controle de tempo e dos processos pai e filho. O pai sempre vai esperar o filho terminar sua execução para começar.
 
 2. Como garantir que somente uma das direções está ativa de cada vez em cada uma das abordagens?
 
     R:
 
-Threads:
+Threads: Utiliza da variável sentido_atual para garantir que apenas um sentido seja utilizado por vez.
 
-Processos:
+Processos: Asim como em Threads, a variável sentido_atual determina a direção que está ativa. O processo segue essa direção até que não haja mais pessoas ou seja necessário alternar devido a uma pessoa esperando na direção oposta.
 
 3. Discorra sobre as diferenças entre as implementações utilizando threads e processos e diga qual foi mais eficiente na solução do problema, justificando sua resposta.
 
