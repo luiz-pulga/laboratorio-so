@@ -8,7 +8,7 @@ Explicação sobre o código:
 
 -> Um mutex (pthread_mutex_t mutex) é utilizado para proteger o acesso à variável found, que indica se o tesouro foi encontrado. fazendo com que condições de corrida não aconteçam, onde múltiplas threads poderiam tentar acessar ou modificar a variável ao mesmo tempo. Sem o mutex, as threads poderiam alterar found de forma concorrente, o que poderia resultar em uma situação onde mais de uma thread "encontra" o tesouro. Antes de qualquer thread verificar ou modificar a variável found, ela deve travar o mutex. Isso garante que enquanto uma thread estiver verificando ou atualizando a variável, nenhuma outra thread pode fazê-lo.
 
-![image](https://github.com/user-attachments/assets/0791a3e5-53bc-4de7-816b-565c6ad779c2)
+![image](https://github.com/user-attachments/assets/a8965797-c2e7-4ebe-ba3d-97d4dbb57e77)
 
 -> As threads se comunicam com a variável found. Cada thread verifica se found é 1 antes de continuar suas buscas. Quando um jogador encontra o tesouro, ele atualiza a variável e imprime uma mensagem no console. A variável found e o acesso ao campo de busca são recursos compartilhados, e a sincronização evita que múltiplas threads interfiram no funcionamento correto do sistema.
 
